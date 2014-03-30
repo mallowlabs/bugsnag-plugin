@@ -8,8 +8,9 @@
 
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>bugsnag</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>0.1-SNAPSHOT</version>
   <packaging>hpi</packaging>
+  <name>Jenkins Bugsnag Plugin</name>
 
   <!-- get every artifact through repo.jenkins-ci.org, which proxies all the artifacts that we need -->
   <repositories>
@@ -25,5 +26,13 @@
       <url>http://repo.jenkins-ci.org/public/</url>
     </pluginRepository>
   </pluginRepositories>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.bugsnag</groupId>
+      <artifactId>bugsnag</artifactId>
+      <version>1.2.2</version>
+    </dependency>
+  </dependencies>
 
 </project>
