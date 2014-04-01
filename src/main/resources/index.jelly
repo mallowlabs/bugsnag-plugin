@@ -2,5 +2,5 @@
   This view is used to render the installed plugins page.
 -->
 <div>
-  This plugin notifies all exceptions to <a href="https://bugsnag.com/">Bugsnag</a>.
+  This plugin notifies uncaught exceptions to <a href="https://bugsnag.com/">Bugsnag</a>.
 </div>
