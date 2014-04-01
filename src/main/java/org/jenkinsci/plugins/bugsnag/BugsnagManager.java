@@ -34,6 +34,7 @@ public class BugsnagManager {
         }
 
         if (StringUtils.isBlank(apiKey)) {
+            this.bugsnag = null;
             return;
         }
 
