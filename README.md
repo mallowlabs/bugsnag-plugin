@@ -1,4 +1,4 @@
-Jenkins Bugsnag Plugin
+Jenkins Bugsnag Plugin ![build status](https://circleci.com/gh/mallowlabs/bugsnag-plugin/tree/master.svg?style=shield)
 =======================================
 
 A Jenkins plugin notifies uncaught exceptions to [Bugsnag](https://bugsnag.com).
